@@ -1,0 +1,140 @@
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\obj\Debug\net5.0\Data.csproj.AssemblyReference.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\obj\Debug\net5.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\obj\Debug\net5.0\Data.AssemblyInfoInputs.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\obj\Debug\net5.0\Data.AssemblyInfo.cs
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\obj\Debug\net5.0\Data.csproj.CoreCompileInputs.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\bin\Debug\net5.0\Data.deps.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\bin\Debug\net5.0\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\bin\Debug\net5.0\ref\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\bin\Debug\net5.0\Data.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\bin\Debug\net5.0\Domain.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\bin\Debug\net5.0\Framework.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\bin\Debug\net5.0\Domain.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\bin\Debug\net5.0\Framework.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\obj\Debug\net5.0\Data.csproj.CopyComplete
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\obj\Debug\net5.0\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\obj\Debug\net5.0\ref\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\obj\Debug\net5.0\Data.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\bin\Debug\net5.0\Data.runtimeconfig.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\bin\Debug\net5.0\Data.runtimeconfig.dev.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication\Data\obj\Debug\net5.0\Data.genruntimeconfig.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\bin\Debug\net5.0\Data.deps.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\bin\Debug\net5.0\Data.runtimeconfig.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\bin\Debug\net5.0\Data.runtimeconfig.dev.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\bin\Debug\net5.0\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\bin\Debug\net5.0\ref\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\bin\Debug\net5.0\Data.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\bin\Debug\net5.0\Domain.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\bin\Debug\net5.0\Framework.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\bin\Debug\net5.0\Domain.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\bin\Debug\net5.0\Framework.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\obj\Debug\net5.0\Data.csproj.AssemblyReference.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\obj\Debug\net5.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\obj\Debug\net5.0\Data.AssemblyInfoInputs.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\obj\Debug\net5.0\Data.AssemblyInfo.cs
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\obj\Debug\net5.0\Data.csproj.CoreCompileInputs.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\obj\Debug\net5.0\Data.csproj.CopyComplete
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\obj\Debug\net5.0\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\obj\Debug\net5.0\ref\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\obj\Debug\net5.0\Data.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication2\Data\obj\Debug\net5.0\Data.genruntimeconfig.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\bin\Debug\net5.0\Data.deps.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\bin\Debug\net5.0\Data.runtimeconfig.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\bin\Debug\net5.0\Data.runtimeconfig.dev.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\bin\Debug\net5.0\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\bin\Debug\net5.0\ref\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\bin\Debug\net5.0\Data.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\bin\Debug\net5.0\Domain.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\bin\Debug\net5.0\Framework.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\bin\Debug\net5.0\Domain.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\bin\Debug\net5.0\Framework.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\obj\Debug\net5.0\Data.csproj.AssemblyReference.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\obj\Debug\net5.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\obj\Debug\net5.0\Data.AssemblyInfoInputs.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\obj\Debug\net5.0\Data.AssemblyInfo.cs
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\obj\Debug\net5.0\Data.csproj.CoreCompileInputs.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\obj\Debug\net5.0\Data.csproj.CopyComplete
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\obj\Debug\net5.0\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\obj\Debug\net5.0\ref\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\obj\Debug\net5.0\Data.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication3\Data\obj\Debug\net5.0\Data.genruntimeconfig.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\bin\Debug\net5.0\Data.deps.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\bin\Debug\net5.0\Data.runtimeconfig.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\bin\Debug\net5.0\Data.runtimeconfig.dev.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\bin\Debug\net5.0\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\bin\Debug\net5.0\ref\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\bin\Debug\net5.0\Data.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\bin\Debug\net5.0\Domain.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\bin\Debug\net5.0\Framework.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\bin\Debug\net5.0\Domain.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\bin\Debug\net5.0\Framework.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\obj\Debug\net5.0\Data.csproj.AssemblyReference.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\obj\Debug\net5.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\obj\Debug\net5.0\Data.AssemblyInfoInputs.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\obj\Debug\net5.0\Data.AssemblyInfo.cs
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\obj\Debug\net5.0\Data.csproj.CoreCompileInputs.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\obj\Debug\net5.0\Data.csproj.CopyComplete
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\obj\Debug\net5.0\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\obj\Debug\net5.0\ref\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\obj\Debug\net5.0\Data.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\RawState\WebApplication4\Data\obj\Debug\net5.0\Data.genruntimeconfig.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\bin\Debug\net5.0\Data.deps.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\bin\Debug\net5.0\Data.runtimeconfig.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\bin\Debug\net5.0\Data.runtimeconfig.dev.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\bin\Debug\net5.0\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\bin\Debug\net5.0\ref\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\bin\Debug\net5.0\Data.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\bin\Debug\net5.0\Domain.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\bin\Debug\net5.0\Framework.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\bin\Debug\net5.0\Domain.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\bin\Debug\net5.0\Framework.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\obj\Debug\net5.0\Data.csproj.AssemblyReference.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\obj\Debug\net5.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\obj\Debug\net5.0\Data.AssemblyInfoInputs.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\obj\Debug\net5.0\Data.AssemblyInfo.cs
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\obj\Debug\net5.0\Data.csproj.CoreCompileInputs.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\obj\Debug\net5.0\Data.csproj.CopyComplete
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\obj\Debug\net5.0\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\obj\Debug\net5.0\ref\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\obj\Debug\net5.0\Data.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork\Data\obj\Debug\net5.0\Data.genruntimeconfig.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\bin\Debug\net5.0\Data.deps.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\bin\Debug\net5.0\Data.runtimeconfig.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\bin\Debug\net5.0\Data.runtimeconfig.dev.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\bin\Debug\net5.0\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\bin\Debug\net5.0\ref\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\bin\Debug\net5.0\Data.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\bin\Debug\net5.0\Domain.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\bin\Debug\net5.0\Framework.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\bin\Debug\net5.0\Domain.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\bin\Debug\net5.0\Framework.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\obj\Debug\net5.0\Data.csproj.AssemblyReference.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\obj\Debug\net5.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\obj\Debug\net5.0\Data.AssemblyInfoInputs.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\obj\Debug\net5.0\Data.AssemblyInfo.cs
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\obj\Debug\net5.0\Data.csproj.CoreCompileInputs.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\obj\Debug\net5.0\Data.csproj.CopyComplete
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\obj\Debug\net5.0\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\obj\Debug\net5.0\ref\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\obj\Debug\net5.0\Data.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 2\Data\obj\Debug\net5.0\Data.genruntimeconfig.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\bin\Debug\net5.0\Data.deps.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\bin\Debug\net5.0\Data.runtimeconfig.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\bin\Debug\net5.0\Data.runtimeconfig.dev.json
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\bin\Debug\net5.0\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\bin\Debug\net5.0\ref\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\bin\Debug\net5.0\Data.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\bin\Debug\net5.0\Domain.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\bin\Debug\net5.0\Framework.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\bin\Debug\net5.0\Domain.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\bin\Debug\net5.0\Framework.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\obj\Debug\net5.0\Data.csproj.AssemblyReference.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\obj\Debug\net5.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\obj\Debug\net5.0\Data.AssemblyInfoInputs.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\obj\Debug\net5.0\Data.AssemblyInfo.cs
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\obj\Debug\net5.0\Data.csproj.CoreCompileInputs.cache
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\obj\Debug\net5.0\Data.csproj.CopyComplete
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\obj\Debug\net5.0\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\obj\Debug\net5.0\ref\Data.dll
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\obj\Debug\net5.0\Data.pdb
+F:\C# Projects\2019\ASP .NET Core\Mvc\WebApplication73 - Sklep, Clean architecture, UnityOfWork 3\Data\obj\Debug\net5.0\Data.genruntimeconfig.cache

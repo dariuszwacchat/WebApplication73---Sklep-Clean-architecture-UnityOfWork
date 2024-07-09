@@ -1,0 +1,146 @@
+﻿@model EditOrderViewModel
+
+@{
+    int index = 0;
+    Client c = Model.Client;
+
+    var zalogowany = await UserManager.GetUserAsync(User);
+}
+
+
+<div class="headerCe">Zatwierdzanie zamówienia</div>
+
+
+<div class="db">
+    <div>
+        @if (Model.OrderItems.Count > 0)
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Lp</th>
+                        <th>Zdjęcie</th>
+                        <th>Nazwa</th>
+                        <th>Ilość</th>
+                        <th>Cena</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var orderItem in Model.OrderItems)
+                    {
+                        index++;
+
+                        <tr>
+                            <td>@index.</td>
+
+                            <td>
+                                @if (orderItem.Product != null)
+                                {
+                                    if (orderItem.Product.PhotosProduct != null && orderItem.Product.PhotosProduct.Any())
+                                    {
+                                        <div class="image w-70px h-70px">
+                                            <partial name="_displayPhoto" model="@orderItem.Product.PhotosProduct[0].PhotoData" />
+                                        </div>
+                                    }
+                                }
+                            </td>
+
+                            <td>
+                                @orderItem.Product.Name
+                            </td>
+
+                            <td>
+                                @orderItem.Ilosc x
+                            </td>
+
+
+                            <td>
+                                @{
+                                    string price = $"{orderItem.Suma.ToString("N2")}";
+                                    <span>@price</span>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+
+    <div class="df">
+
+        <div class="w-50 db">
+            <h2>Dane kontaktowe</h2>
+            <p>Telefon: @c.Telefon</p>
+            <p>Email: @c.Email</p>
+
+            <h2>Twoje dane</h2>
+            <p>@c.Imie @c.Nazwisko</p>
+            <p>@c.Ulica</p>
+            <p>@c.Miejscowosc @c.KodPocztowy</p>
+            <p>@c.Kraj</p>
+        </div>
+
+        <div class="w-50 db">
+            <h2>Dane do wysyłki</h2>
+            <p>@c.Imie @c.Nazwisko</p>
+            <p>@c.Ulica</p>
+            <p>@c.Miejscowosc @c.KodPocztowy</p>
+            <p>@c.Kraj</p>
+
+            <p>Sposób płatności: @Model.SposobPlatnosci</p>
+            <p>Sposób wysyłki: @Model.SposobWysylki</p>
+            <p>Sposób wysyłki: 1 dzień</p>
+
+            <p>Łączny koszt: @Model.Suma</p>
+        </div>
+    </div>
+
+    @if (zalogowany != null)
+    {
+        if (zalogowany.Client != null)
+        {
+            <div class="m-30">
+                <h2>Osoba realizująca zamówienie</h2>
+                <p>Imię: <b>@zalogowany.Client.Imie</b></p>
+                <p>Nazwisko: <b>@zalogowany.Client.Nazwisko</b></p>
+            </div>
+        }
+    }
+
+
+    <!-- Podsumowanie -->
+    <div class="df-sb p-20 mt-20 mb-20 border shadow">
+        <div></div>
+
+        <div class="db">
+            <h2>Podsumowanie</h2>
+            <div class="df">
+                <div class="db mr-20">
+                    <h5>Łączna ilość zamówień</h5>
+                    <span>@Model.Ilosc szt.</span>
+                </div>
+                <div class="db">
+                    <h5>Łączna suma zamówień</h5>
+                    <span>@Model.Suma zł.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <form method="post" asp-action="Edit" asp-controller="Orders" asp-area="Admin">
+        <input type="hidden" asp-for="OrderId" value="@Model.OrderId" />
+        <input type="hidden" asp-for="ClientId" value="@Model.ClientId" />
+        <input type="hidden" asp-for="OsobaRealizujacaId" value="@Model.OsobaRealizujacaId" />
+
+
+        <div class="bottom-bar-options">
+            <span>Zmień status wysyłki na</span>
+            <select asp-for="StatusZamowienia" asp-items='@new SelectList(Enum.GetNames(typeof(StatusZamowienia)), Model.StatusZamowienia)' class="selectOption"></select>
+            <input type="submit" value="Zatwierdź" class="form-button" />
+        </div>
+
+    </form>
+</div>

@@ -1,0 +1,23 @@
+﻿@using WebApplication
+@using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Authentication
+@using Microsoft.AspNetCore.Authorization
+@using Application.Services
+@using Data
+@using Domain.Models
+@using Domain.Models.Enum
+@using Domain.ViewModels.Account
+@using Domain.ViewModels.ReceiveMessages
+@using Domain.ViewModels.Roles
+@using Domain.ViewModels.SendMessages
+@using Domain.ViewModels.Users
+@using Domain.ViewModels.Products
+@using Domain.ViewModels.Orders
+@using Domain.ViewModels.Payments
+@using Domain.ViewModels.Koszyk
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@inject ApplicationDbContext Context
+@inject UserManager<ApplicationUser> UserManager
+@inject SignInManager<ApplicationUser> SignInManager

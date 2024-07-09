@@ -1,0 +1,36 @@
+﻿@model RegisterShortViewModel
+
+@{
+    string password = "SDG%$@5423sdgagSDert";
+}
+
+<h1>
+    @password
+</h1>
+
+<form method="post" asp-action="Register" asp-controller="Account" asp-area=""> 
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="c-red"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <input asp-for="Password" class="form-control" />
+        <span asp-validation-for="Password" class="c-red"></span>
+    </div>
+
+    <input type="submit" value="Register" class="form-button" />
+</form>
+
+<br />
+@if (!string.IsNullOrEmpty(Model.Result))
+{
+    <p class="text-danger">
+        @Model.Result
+        
+
+    </p>
+    }

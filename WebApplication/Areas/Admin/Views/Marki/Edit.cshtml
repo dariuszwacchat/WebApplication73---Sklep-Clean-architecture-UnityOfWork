@@ -1,0 +1,26 @@
+﻿@model EditMarkaViewModel
+
+    <div class="headerCe">Edytowanie istniejącej marki</div>
+
+    <form method="post" asp-action="Edit" asp-controller="Marki">
+        <input type="hidden" asp-for="MarkaId" value="@Model.MarkaId" />
+
+        <div class="db">
+            <div class="row">
+                <div class="fieldName">
+                    <span>Nazwa marki</span>
+                </div>
+                <div class="fieldEdit">
+                    <input asp-for="Name" />
+                    <span asp-validation-for="Name" class="c-red"></span>
+                    <span class="c-red">@Model.Result</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-bar-options">
+            <a asp-action="Index" asp-controller="Marki" class="form-button-a">Anuluj</a>
+            <input type="submit" value="Zapisz" class="form-button" />
+        </div>
+
+    </form> 

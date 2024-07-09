@@ -1,0 +1,29 @@
+﻿@model OrderFormularzViewModel
+   
+
+<div class="db">
+    <h1>Jak chcesz kontynuuować zakupy?</h1>
+
+    <form method="post" asp-action="OrderFormularz" asp-controller="Orders">  
+        <div class="db">
+            <div>
+                <label>
+                    <input type="radio" asp-for="RodzajTransakcji" name="RodzajTransakcji" value="Logowanie"> Zaloguj się
+                </label>
+
+                <label>
+                    <input type="radio" asp-for="RodzajTransakcji" name="RodzajTransakcji" value="Rejestracja"> Zarejestruj się
+                </label>
+
+                <label>
+                    <input type="radio" asp-for="RodzajTransakcji" name="RodzajTransakcji" value="BezRejestracji"> Kontynuuj bez rejestracji
+                </label>
+
+                <input type="submit" value="Dalej" class="button6" />
+            </div>
+            <span asp-validation-for="RodzajTransakcji" class="c-red"></span>
+        </div> 
+    </form> 
+</div>
+
+ 

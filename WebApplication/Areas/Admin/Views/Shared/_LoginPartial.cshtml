@@ -1,0 +1,14 @@
+﻿@*
+<div class="df">
+    @if (SignInManager.IsSignedIn(User))
+    {
+    <div class="df">
+        <div>
+            Zalogowany <span class="b">@User.Identity.Name</span>
+        </div>
+        <a asp-action="Logout" asp-controller="Account">Wyloguj</a>
+        <a asp-action="ChangePassword" asp-controller="Account">Change password</a>
+        <a asp-action="DeleteAccount" asp-controller="Account">Delete account</a>
+    </div>
+    } 
+</div>*@

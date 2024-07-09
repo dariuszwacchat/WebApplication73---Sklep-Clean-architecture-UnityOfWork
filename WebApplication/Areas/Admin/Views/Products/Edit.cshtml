@@ -1,0 +1,175 @@
+﻿@model EditProductViewModel
+
+
+
+    <div class="headerCe">Edytowanie istniejącego produktu</div>
+
+
+        <form id="form" method="post" asp-action="Edit" asp-controller="Products" enctype="multipart/form-data">
+            <input type="hidden" asp-for="ProductId" value="@Model.ProductId" />
+
+            <div class="db">
+                <div class="row">
+                    <div class="fieldName">
+                        <span>Nazwa </span>
+                    </div>
+                    <div class="fieldEdit">
+                        <input asp-for="Name" />
+                        <span asp-validation-for="Name" class="c-red"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="fieldName">
+                        <span>Opis</span>
+                    </div>
+                    <div class="fieldEdit">
+                        <div class="toolbar">
+                            <button type="button" onclick="toggleFormat('bold')" class="buttonBold">B</button>
+                            <button type="button" onclick="toggleFormat('italic')" class="buttonItalic">I</button>
+                            <button type="button" onclick="toggleFormat('underline')" class="buttonUnderline">U</button>
+                            <select onchange="changeFontSize()">
+                                <option value="">Wielkość czcionki</option>
+                                @for (int size = 1; size <= 7; size++)
+                                {
+                                    <option value="@size">@size</option>
+                                }
+                            </select>
+                            <input type="color" onchange="changeTextColor()" title="Kolor tekstu" class="buttonColor">
+                            <input type="file" multiple onchange="insertImages(this)" accept="image/*" title="Dodaj zdjęcia">
+                            <button type="button" onclick="alignText('left')">Wyrównaj do lewej</button>
+                            <button type="button" onclick="alignText('center')">Wyrównaj do środka</button>
+                            <button type="button" onclick="alignText('right')">Wyrównaj do prawej</button>
+                            <button type="button" onclick="toggleList('ordered')">Lista numerowana</button>
+                            <button type="button" onclick="toggleList('unordered')">Lista wypunktowana</button>
+                        </div>
+
+
+                        @* Obszar edycji tekstu *@
+                        <div id="editor" contenteditable="true" data-description="Description" placeholder="Wprowadź tekst tutaj..."></div>
+                        <input type="hidden" asp-for="Description" value="@Model.Description" id="descriptionHidden" />
+
+
+
+
+                    </div>
+                </div>
+
+
+                @if (Model.PhotosProduct != null && Model.PhotosProduct.Any())
+                {
+                    <div class="row">
+                        <div class="fieldName">
+                            <span>Zdjęcia</span>
+                        </div>
+                        <div class="fieldEdit">
+                            @foreach (var photoProduct in Model.PhotosProduct)
+                            {
+                                <div class="image w-200px">
+                                    <partial name="_displayPhoto" model="@photoProduct.PhotoData" />
+                                </div>
+
+                                <a asp-action="DeletePhotoProduct"
+                                   asp-controller="Products"
+                                   asp-area="Admin"
+                                   asp-route-productId="@photoProduct.ProductId"
+                                   asp-route-photoProductId="@photoProduct.PhotoProductId">
+                                    Usuń zdjęcie
+                                </a>
+                            }
+                        </div>
+                    </div>
+                }
+
+
+                <div class="row">
+                    <div class="fieldName">
+                        <span>Dodaj kolejne zdjęcia</span>
+                    </div>
+                    <div class="fieldEdit">
+                        <input type="file" name="files" multiple />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="fieldName">
+                        <span>Cena</span>
+                    </div>
+                    <div class="fieldEdit">
+                        <input asp-for="Price" />
+                        <span asp-validation-for="Price" class="c-red"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="fieldName">
+                        <span>Ilość</span>
+                    </div>
+                    <div class="fieldEdit">
+                        <input asp-for="Quantity" />
+                        <span asp-validation-for="Quantity" class="c-red"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="fieldName">
+                        <span>Zniżka w %</span>
+                    </div>
+                    <div class="fieldEdit">
+                        <input asp-for="Znizka" />
+                        <span asp-validation-for="Znizka" class="c-red"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="fieldName">
+                        <span>Marka</span>
+                    </div>
+                    <div class="fieldEdit">
+                        <select asp-for="MarkaId" asp-items="ViewBag.markiIdList" class="selectOption"></select>
+                        <span asp-validation-for="MarkaId" class="c-red"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="fieldName">
+                        <span>Kategoria</span>
+                    </div>
+                    <div class="fieldEdit">
+                        <select asp-for="CategoryId" asp-items="ViewBag.categoriesIdList" class="selectOption"></select>
+                        <span asp-validation-for="CategoryId" class="c-red"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="fieldName">
+                        <span>Subkategoria</span>
+                    </div>
+                    <div class="fieldEdit">
+                        <select asp-for="SubcategoryId" asp-items="ViewBag.subcategoriesIdList" class="selectOption"></select>
+                        <span asp-validation-for="SubcategoryId" class="c-red"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="fieldName">
+                        <span>Subsubkategoria</span>
+                    </div>
+                    <div class="fieldEdit">
+                        <select asp-for="SubsubcategoryId" asp-items="ViewBag.subsubcategoriesIdList" class="selectOption"></select>
+                        <span asp-validation-for="SubsubcategoryId" class="c-red"></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="bottom-bar-options">
+                <a asp-action="Index" asp-controller="Products" class="form-button-a">Anuluj</a>
+                <input type="submit" value="Zapisz" class="form-button" />
+            </div>
+
+        </form>
+
+        <span class="c-red">@Model.Result</span>
+
+

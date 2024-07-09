@@ -1,0 +1,138 @@
+﻿@model WithoutRegisterOrderViewModel
+
+<h2>Podaj dane do wysyłki</h2>
+
+<form method="post" asp-action="WithoutRegister" asp-controller="Orders">
+
+    <div class="db">
+        <div class="row">
+
+            <div class="fieldName">
+                <span>Imię</span>
+            </div>
+            <div class="fieldEdit">
+                <input asp-for="Imie" placeholder="Jan" />
+                <span asp-validation-for="Imie" class="c-red"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="fieldName">
+                <span>Nazwisko</span>
+            </div>
+            <div class="fieldEdit">
+                <input asp-for="Nazwisko" placeholder="Kowalski" />
+                <span asp-validation-for="Nazwisko" class="c-red"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="fieldName">
+                <span>Ulica</span>
+            </div>
+            <div class="fieldEdit">
+                <input asp-for="Ulica" placeholder="Ulica" />
+                <span asp-validation-for="Ulica" class="c-red"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="fieldName">
+                <span>Numer ulicy</span>
+            </div>
+            <div class="fieldEdit">
+                <input asp-for="NumerUlicy" placeholder="15" />
+                <span asp-validation-for="NumerUlicy" class="c-red"></span>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="fieldName">
+                <span>Kod pocztowy</span>
+            </div>
+            <div class="fieldEdit">
+                <input asp-for="KodPocztowy" placeholder="12-123" />
+                <span asp-validation-for="KodPocztowy" class="c-red"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="fieldName">
+                <span>Miejscowość</span>
+            </div>
+            <div class="fieldEdit">
+                <input asp-for="Miejscowosc" placeholder="Warszawa" />
+                <span asp-validation-for="Miejscowosc" class="c-red"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="fieldName">
+                <span>Kraj</span>
+            </div>
+            <div class="fieldEdit">
+                <select asp-for="Kraj" asp-items='@new SelectList(new List <string> () { "Polska" })' class="selectOption"></select>
+                <span asp-validation-for="Kraj" class="c-red"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="fieldName">
+                <span>Telefon</span>
+            </div>
+            <div class="fieldEdit">
+                <input asp-for="Telefon" placeholder="123-123-123" />
+                <span asp-validation-for="Telefon" class="c-red"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="fieldName">
+                <span>Email</span>
+            </div>
+            <div class="fieldEdit">
+                <input asp-for="Email" placeholder="adres@email.pl" />
+                <span asp-validation-for="Email" class="c-red"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="fieldName">
+                <span>Rodzaj osoby</span>
+            </div>
+            <div class="fieldEdit">
+                <select asp-for="RodzajOsoby" asp-items='@new SelectList(Enum.GetValues(typeof(RodzajOsoby)))' class="selectOption"></select>
+                <span asp-validation-for="RodzajOsoby" class="c-red"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="fieldName">
+                <span>Płeć</span>
+            </div>
+            <div class="fieldEdit">
+                <select asp-for="Plec" asp-items='@new SelectList(Enum.GetValues(typeof(Plec)))' class="selectOption"></select>
+                <span asp-validation-for="Plec" class="c-red"></span>
+            </div>
+        </div>
+
+        @*<div class="form-group">
+            <label asp-for="OswiadczeniaConfirmed"></label>
+            <input asp-for="OswiadczeniaConfirmed" class="form-control" />
+            <span asp-validation-for="OswiadczeniaConfirmed" class="c-red"></span>
+        </div>*@
+
+        @*<div class="form-group">
+            <label asp-for="Newsletter"></label>
+            <input asp-for="Newsletter" class="form-control" />
+            <span asp-validation-for="Newsletter" class="c-red"></span>
+        </div>*@
+
+
+        <div class="df">
+            <a asp-action="Index" asp-controller="Koszyk" class="button6">Wstecz</a>
+            <input type="submit" value="Dalej" class="button6" />
+        </div>
+    </div>
+</form>

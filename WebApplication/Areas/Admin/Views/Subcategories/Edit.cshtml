@@ -1,0 +1,47 @@
+﻿@model EditSubcategoryViewModel
+
+    <div class="headerCe">Edytowanie istniejącej subkategorii</div>
+
+    <form method="post" asp-action="Edit" asp-controller="Subcategories">
+        <input type="hidden" asp-for="SubcategoryId" value="@Model.SubcategoryId" />
+
+        <div class="db">
+            <div class="row">
+                <div class="fieldName">
+                    <span>Nazwa subkategorii</span>
+                </div>
+                <div class="fieldEdit">
+                    <input asp-for="Name" />
+                    <span asp-validation-for="Name" class="c-red"></span>
+                    <span class="c-red">@Model.Result</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="fieldName">
+                    <span>Wyświetlana nazwa subkategorii</span>
+                </div>
+                <div class="fieldEdit">
+                    <input asp-for="FullName" />
+                    <span asp-validation-for="FullName" class="c-red"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="fieldName">
+                    <span>Kategoria</span>
+                </div>
+                <div class="fieldEdit">
+                    <select asp-for="CategoryId" asp-items="ViewBag.categoriesIdList" class="selectOption"></select>
+                    <span asp-validation-for="CategoryId" class="c-red"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-bar-options">
+            <a asp-action="Index" asp-controller="Subcategories" class="form-button-a">Anuluj</a>
+            <input type="submit" value="Zapisz" class="form-button" />
+        </div>
+
+    </form>
+

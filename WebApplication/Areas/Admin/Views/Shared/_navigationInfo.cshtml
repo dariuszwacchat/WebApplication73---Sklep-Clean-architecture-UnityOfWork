@@ -1,0 +1,263 @@
+﻿
+@{
+    string text = "Jesteś tutaj: ";
+
+    <div class="df centery fs-10" style="color: rgb(100,100,100); margin: 8px 0px;">
+
+        @switch (NI.Navigation)
+        {
+            case Navigation.AccountChangeEmail:
+                <span class="mr-10">@text</span>
+                <span>Account</span>
+                <div class="arrowNi"></div>
+                <span>Change email</span>
+                break;
+            case Navigation.AccountChangePassword:
+                <span class="mr-10">@text</span>
+                <span>Account</span>
+                <div class="arrowNi"></div>
+                <span>Change password</span>
+                break;
+            case Navigation.AccountEdit:
+                <span class="mr-10">@text</span>
+                <span>Account</span>
+                <div class="arrowNi"></div>
+                <span>Edit</span>
+                break;
+
+
+
+
+            case Navigation.CategoriesIndex:
+                <span class="mr-10">@text</span>
+                <span>Categories</span>
+                <div class="arrowNi"></div>
+                <span>Index</span>
+                break;
+            case Navigation.CategoriesCreate:
+                <span class="mr-10">@text</span>
+                <span>Categories</span>
+                <div class="arrowNi"></div>
+                <span>Create</span>
+                break;
+            case Navigation.CategoriesEdit:
+                <span class="mr-10">@text</span>
+                <span>Categories</span>
+                <div class="arrowNi"></div>
+                <span>Edit</span>
+                break;
+
+
+
+
+            case Navigation.ClientsIndex:
+                <span class="mr-10">@text</span>
+                <span>Clients</span>
+                <div class="arrowNi"></div>
+                <span>Index</span>
+                break;
+            case Navigation.ClientsCreate:
+                <span class="mr-10">@text</span>
+                <span>Clients</span>
+                <div class="arrowNi"></div>
+                <span>Create</span>
+                break;
+            case Navigation.ClientsEdit:
+                <span class="mr-10">@text</span>
+                <span>Clients</span>
+                <div class="arrowNi"></div>
+                <span>Edit</span>
+                break;
+
+
+
+
+            case Navigation.ColorsIndex:
+                <span class="mr-10">@text</span>
+                <span>Colors</span>
+                <div class="arrowNi"></div>
+                <span>Index</span>
+                break;
+            case Navigation.ColorsCreate:
+                <span class="mr-10">@text</span>
+                <span>Colors</span>
+                <div class="arrowNi"></div>
+                <span>Create</span>
+                break;
+            case Navigation.ColorsEdit:
+                <span class="mr-10">@text</span>
+                <span>Colors</span>
+                <div class="arrowNi"></div>
+                <span>Edit</span>
+                break;
+
+
+
+
+            case Navigation.HomeIndex:
+                <span class="mr-10">@text</span>
+                <span>Home</span>
+                <div class="arrowNi"></div>
+                <span>Index</span>
+                break;
+
+
+
+
+            case Navigation.MarkiIndex:
+                <span class="mr-10">@text</span>
+                <span>Marki</span>
+                <div class="arrowNi"></div>
+                <span>Index</span>
+                break;
+            case Navigation.MarkiCreate:
+                <span class="mr-10">@text</span>
+                <span>Marki</span>
+                <div class="arrowNi"></div>
+                <span>Create</span>
+                break;
+            case Navigation.MarkiEdit:
+                <span class="mr-10">@text</span>
+                <span>Marki</span>
+                <div class="arrowNi"></div>
+                <span>Edit</span>
+                break;
+
+
+
+
+            case Navigation.OrdersIndex:
+                <span class="mr-10">@text</span>
+                <span>Orders</span>
+                <div class="arrowNi"></div>
+                <span>Index</span>
+                break;
+            case Navigation.OrdersCreate:
+                <span class="mr-10">@text</span>
+                <span>Orders</span>
+                <div class="arrowNi"></div>
+                <span>Create</span>
+                break;
+            case Navigation.OrdersEdit:
+                <span class="mr-10">@text</span>
+                <span>Orders</span>
+                <div class="arrowNi"></div>
+                <span>Edit</span>
+                break;
+
+
+
+
+            case Navigation.ProductsIndex:
+                <span class="mr-10">@text</span>
+                <span>Products</span>
+                <div class="arrowNi"></div>
+                <span>Index</span>
+                break;
+            case Navigation.ProductsCreate:
+                <span class="mr-10">@text</span>
+                <span>Products</span>
+                <div class="arrowNi"></div>
+                <span>Create</span>
+                break;
+            case Navigation.ProductsEdit:
+                <span class="mr-10">@text</span>
+                <span>Products</span>
+                <div class="arrowNi"></div>
+                <span>Edit</span>
+                break;
+
+
+
+
+            case Navigation.RolesIndex:
+                <span class="mr-10">@text</span>
+                <span>Roles</span>
+                <div class="arrowNi"></div>
+                <span>Index</span>
+                break;
+            case Navigation.RolesCreate:
+                <span class="mr-10">@text</span>
+                <span>Roles</span>
+                <div class="arrowNi"></div>
+                <span>Create</span>
+                break;
+            case Navigation.RolesEdit:
+                <span class="mr-10">@text</span>
+                <span>Roles</span>
+                <div class="arrowNi"></div>
+                <span>Edit</span>
+                break;
+
+
+
+
+            case Navigation.SizesIndex:
+                <span class="mr-10">@text</span>
+                <span>Sizes</span>
+                <div class="arrowNi"></div>
+                <span>Index</span>
+                break;
+            case Navigation.SizesCreate:
+                <span class="mr-10">@text</span>
+                <span>Sizes</span>
+                <div class="arrowNi"></div>
+                <span>Create</span>
+                break;
+            case Navigation.SizesEdit:
+                <span class="mr-10">@text</span>
+                <span>Sizes</span>
+                <div class="arrowNi"></div>
+                <span>Edit</span>
+                break;
+
+
+
+
+            case Navigation.SubcategoriesIndex:
+                <span class="mr-10">@text</span>
+                <span>Subcategories</span>
+                <div class="arrowNi"></div>
+                <span>Index</span>
+                break;
+            case Navigation.SubcategoriesCreate:
+                <span class="mr-10">@text</span>
+                <span>Subcategories</span>
+                <div class="arrowNi"></div>
+                <span>Create</span>
+                break;
+            case Navigation.SubcategoriesEdit:
+                <span class="mr-10">@text</span>
+                <span>Subcategories</span>
+                <div class="arrowNi"></div>
+                <span>Edit</span>
+                break;
+
+
+
+
+            case Navigation.SubsubcategoriesIndex:
+                <span class="mr-10">@text</span>
+                <span>Subsubcategories</span>
+                <div class="arrowNi"></div>
+                <span>Index</span>
+                break;
+            case Navigation.SubsubcategoriesCreate:
+                <span class="mr-10">@text</span>
+                <span>Subsubcategories</span>
+                <div class="arrowNi"></div>
+                <span>Create</span>
+                break;
+            case Navigation.SubsubcategoriesEdit:
+                <span class="mr-10">@text</span>
+                <span>Subsubcategories</span>
+                <div class="arrowNi"></div>
+                <span>Edit</span>
+                break;
+
+
+        }
+
+    </div>
+
+}

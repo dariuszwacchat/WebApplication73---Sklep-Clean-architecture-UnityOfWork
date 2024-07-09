@@ -1,0 +1,25 @@
+﻿
+
+@{ 
+    var user = await Context.Users
+        .Include(i=> i.SendMessages)
+        .Include (i=> i.ReceiveMessages)
+        .FirstOrDefaultAsync (f=> f.UserName == User.Identity.Name);
+
+    var sendMessages = user.SendMessages.ToList ();
+    var receiveMessages = user.ReceiveMessages.ToList ();
+}
+
+<div class="w-200px">
+    <ul class="leftMenuMessagesUl">
+        <li>
+            <a asp-action="Create" asp-controller="SendMessages" class="newMessage"> + Nowa wiadomość</a>
+        </li>
+        <li>
+            <a asp-action="Index" asp-controller="SendMessages">Wiadomości wysłane (@sendMessages.Count)</a>
+        </li>
+        <li>
+            <a asp-action="Index" asp-controller="ReceiveMessages">Wiadomości otrzymane (@receiveMessages.Count)</a>
+        </li>
+    </ul>
+</div>

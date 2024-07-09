@@ -1,0 +1,16 @@
+﻿@model ConfirmEmailViewModel
+@{
+    ViewData["Title"] = "ConfirmedEmail";
+}
+
+<h1>Email potwierdzony, możesz się teraz zalogować na własne kontro</h1>
+<a asp-action="Login" asp-controller="Account" class="button7">Tutaj</a>
+
+@Model.Result
+<br />
+@Model.Success
+<br />
+@Model.UserId
+<br />
+@Model.Code
+<br />
